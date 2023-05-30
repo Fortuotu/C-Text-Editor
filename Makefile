@@ -26,4 +26,4 @@ $(BUILDDIR)/%.o: $(SRCDIR)/%.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -rf $(wildcard $(BUILDDIR)/*) $(TARGET)
+	rm -rf $(BUILDDIR) $(BINDIR)
